@@ -24,3 +24,9 @@ hs_err_pid*
 
 # mac Finder files
 .DS_Store
+
+# PyCharm folder
+.idea
+
+# Python virtual environments
+venv
