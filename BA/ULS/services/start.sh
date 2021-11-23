@@ -18,5 +18,5 @@ docker build -t backend_image .
 if [ -z ${name+x} ]; then
   docker run --env WORKSHOP_NUM="${workshop}" -dp "${port}":5000 backend_image
 else
-  docker run --name "${name}" --env WORKSHOP_NUM="${workshop}" -dp "${port}":"${port}" backend_image
+  docker run --name "${name}" --env WORKSHOP_NUM="${workshop}" -dp "${port}":5000 backend_image
 fi
