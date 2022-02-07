@@ -34,7 +34,7 @@ def hw():
                 if trans.transactional_info == "end":
                     end = trans.ts
             if start != 0 and end != 0:
-                avg_service_time += (end - start).total_seconds()
+                avg_service_time += (end - start).total_seconds() / 3600  # Total Hours
                 completed_activities += 1
         try:
             avg_service_time = avg_service_time / completed_activities
