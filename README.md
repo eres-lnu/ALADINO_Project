@@ -1,5 +1,5 @@
 # ALADINO: Aligning Architectures for Digital Twin of the Organization 
-The ALADINO project aims at establishing a set of sound engineering methodologies, methods and tools for modeling, evaluating, and evolving a Digital Twin of an Organization.
+The ALADINO project aims at establishing a set of sound engineering methodologies, methods and tools for modeling, evaluating, and evolving a Digital Twin of the Organization.
 
 
 ## About the project
